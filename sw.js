@@ -1,5 +1,4 @@
-
-const CACHE = 'archivum-shell-v2';
+const CACHE = 'archivum-shell-v3';
 
 const ASSETS = [
   './',
