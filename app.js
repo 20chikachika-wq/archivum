@@ -1,5 +1,5 @@
 /* ARCHIVUM — PWA starter. Cloud sync requires a Supabase project; see README. */
-const KEY='archivum-v1-local';
+const KEY='archivum-v1-local', CFG='archivum-supabase-config';
 const $=s=>document.querySelector(s), esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let state={subjects:['国語','数学','理科','社会','英語','保健体育','技術・家庭','音楽','美術'],units:[],tasks:[],cards:[],quizzes:[],wrong:[],notes:[],exams:[],plans:[],sessions:[]};
 let page='home', sb=null, user=null, startedAt=null, elapsed=0, tick=null, pickedDate=new Date().toISOString().slice(0,10), pendingDelete=null;
