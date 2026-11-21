@@ -1,0 +1,10 @@
+{
+  "name": "ARCHIVUM — Personal Study Museum",
+  "short_name": "ARCHIVUM",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#39231f",
+  "theme_color": "#39231f",
+  "lang": "ja",
+  "icons": []
+}
